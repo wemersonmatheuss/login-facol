@@ -158,3 +158,32 @@
     }
 
 }
+
+@media screen and (max-width: 500px) {
+    .main-container {
+        padding-inline: 24px;
+        & main {
+            padding: 24px 12px;
+            width: 100%;
+            max-width: 100%;
+
+            & .title {
+                & img {
+                    width: 250px;
+                    height: auto;
+                }
+
+                & p {
+                    font-size: 12px;
+                }
+            }
+
+            & .inputs {
+                & input,
+                & select {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
