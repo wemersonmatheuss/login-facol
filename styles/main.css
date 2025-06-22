@@ -182,11 +182,13 @@
                 & input,
                 & select {
                     font-size: 12px;
+                    touch-action: manipulation;
+                    user-scalable: no;
                 }
 
                 & select option {
-                    background-color: var(--color-button);
-                    color: var(--background-color);
+                    background-color: var(--color-button) !important; 
+                    color: var(--background-color) !important;
 
                     font-size: 17px;
                 }
