@@ -13,3 +13,8 @@
     --color-button: #216498;
     --hover-color: #216498;
 }
+
+html, body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
