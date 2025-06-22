@@ -1,0 +1,160 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("../assets/background-facol.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+    & main {
+        border-radius: 10px;
+        padding: 24px 34px;
+        background-color: var(--background-color);
+        width: 100%;
+        max-width: 515px;
+        
+        & .title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 28px;
+
+            & img {
+                width: 300px;
+                height: auto;
+                margin-bottom: 27px;
+            }
+
+
+            & p {
+                text-align: center;
+                font-size: 14px;
+                color: var(--stroke-color);
+            }
+        }
+
+        & .inputs {
+            display: flex;
+            flex-direction: column;
+            gap: 19px;
+            width: 100%;
+            margin-bottom: 28px;
+
+            & input,
+            & select {
+                width: 100%;
+                padding: 10px;
+                border-radius: 8px;
+                border: 1px solid var(--stroke-color);
+                cursor: text;
+
+                font-size: 15px;
+
+
+                
+            
+            }
+
+            & input:focus,
+            & select:focus {
+                border: 2px solid var(--hover-color);
+                outline: none;
+            }
+
+            & #matricula {
+                background-image: url("../assets/svg/gmail\ \(2\).svg");
+                background-repeat: no-repeat;
+                background-position: right 15px center;
+                background-size: 15px 20px;
+            }
+
+            & #matricula:focus {
+                background-image: url("../assets/svg/gmail-hover.svg");
+            }
+
+            & #senha {
+                background-image: url("../assets/svg/cadeado.svg");
+                background-repeat: no-repeat;
+                background-position: right 15px center;
+                background-size: 15px 20px;
+            }
+
+            & #senha:focus {
+                background-image: none;
+            }
+
+            & select {
+                cursor: pointer;
+                appearance: none;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+
+                background-image: url("../assets/svg/seta-direita.svg");
+                background-repeat: no-repeat;
+                background-position: right 15px center;
+                background-size: 15px 20px;
+            }
+
+            & select option {
+                background-color: var(--color-button);
+                color: var(--background-color);
+
+                font-size: 17px;
+            }
+
+            & select option:hover {
+                background-color: #398fd1;
+            }
+
+            & select:focus {
+                background-image: url("../assets/svg/seta-direita-hover.svg");
+            }
+
+            
+
+        }
+
+        & .login {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            & button {
+                width: 100%;
+                padding: 10px;
+                background-color: var(--color-button);
+                color: var(--background-color);
+                border: none;
+                border-radius: 8px;
+                cursor: pointer;    
+                
+                font-size: 17px;
+            }
+
+            & button:hover {
+                background-color: #398fd1;
+                transition: 0.3s ease-in-out;
+            }
+
+            & a {
+                text-align: center;
+                font-size: 14px;
+                color: #3f3f3f;
+                cursor: pointer;
+            }
+
+            & a:hover {
+                color: #398fd1;
+                transition: 0.3s ease-in-out;
+            }
+        }
+
+        
+    }
+
+}
