@@ -183,6 +183,24 @@
                 & select {
                     font-size: 12px;
                 }
+
+                & select option {
+                    background-color: var(--color-button);
+                    color: var(--background-color);
+
+                    font-size: 17px;
+                }
+            }
+
+            & .login {
+                & button {
+                    padding: 5px;
+                    font-size: 14px;
+                }
+
+                & a {
+                    font-size: 12px;
+                }
             }
         }
     }
