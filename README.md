@@ -62,3 +62,27 @@ O projeto não tem vínculo com a instituição. É apenas um estudo independent
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/login-facol.git
+
+2. Acesse a pasta do projeto:
+   ```bash
+   cd login-facol
+
+3. Abra o arquivo index.html no navegador
+   3.1 Clique duas vezes no arquivo index.html, ou use a extensão *Live Server* no VS Code
+
+---
+
+## 💬 Considerações finais
+O intuito deste projeto é mostrar que:
+
+1. Melhorar a usabilidade não exige mudanças drásticas
+2. Com HTML e CSS puros é possível alcançar um bom resultado
+3. Pequenos ajustes de layout podem transformar a percepção do sistema
+4. Se você está aprendendo front-end, clonar interfaces reais é um excelente exercício para evoluir!
+
+---
+
+## 👨‍💻 Autor
+Wemerson Matheus
+Desenvolvedor Front-end & Freelancer
+
